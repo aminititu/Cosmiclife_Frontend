@@ -17,7 +17,7 @@ services:
     routes:
       - type: rewrite
         source: /api/*
-        destination: https://forgex-website.onrender.com/api/*
+        destination: https://cosmiclife-productio.up.railway.app/.com/api/*
       - type: rewrite
         source: /*
         destination: /index.html
