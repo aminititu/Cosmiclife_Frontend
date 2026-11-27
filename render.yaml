@@ -17,7 +17,7 @@ services:
     routes:
       - type: rewrite
         source: /api/*
-        destination: ${BACKEND_ORIGIN}/api/*
+        destination: https://forgex-website.onrender.com/api/*
       - type: rewrite
         source: /*
         destination: /index.html
